@@ -1,1 +1,2 @@
-### Aim of the experiment
+In this experiment, layout design platform feature is included with layout design rule check (DRC).
+
