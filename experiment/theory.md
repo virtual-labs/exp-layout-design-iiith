@@ -6,11 +6,15 @@ We can say, in general, that observing the layout design rules significantly inc
 
 The design rules are usually described in two ways :
 
-*Micron rules :* Micron rules, which the layout constraints such as minimum feature sizes and minimum allowable feature separations, are stated in terms of absolute dimensions in micrometers, or,
+**Micron rules :** 
 
-*Lambda rules :* Lambda rules, which specify the layout constraints in terms of a single parameter Lambda and, thus, allow linear, proportional scaling of all geometrical constraints.
+Micron rules, which the layout constraints such as minimum feature sizes and minimum allowable feature separations, are stated in terms of absolute dimensions in micrometers, or,
 
-*SOME DEFINED RULES :*
+**Lambda rules :** 
+
+Lambda rules, which specify the layout constraints in terms of a single parameter Lambda and, thus, allow linear, proportional scaling of all geometrical constraints.
+
+**SOME DEFINED RULES :**
 
 Description : L-Rule
 
@@ -38,7 +42,7 @@ Minimum active contact to metal edge spacing : 1 L
 Minimum active contact to poly edge spacing : 3 L
 Minimum active contact spacing : 6 L
 
-*Pictorial presentation of Layout Design Rules (DRCs) : Intra Layer Design Rules*
+**Pictorial presentation of Layout Design Rules (DRCs) : Intra Layer Design Rules**
 
 
 Figure1: Intra Layer Design Rules.
