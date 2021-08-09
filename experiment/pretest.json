@@ -1,18 +1,189 @@
 [
-{"question":"This is a Sample Question 1?",
+{"question":"1. What is the minimum width, minimum spacing rule of same potential and different potential Well ?",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"10,9 and 10,6.",
+            "b":"10,6 and 10,9",
+            "c":"10,10 and 9,6.",
+            "d":"10,9 and 10,9."
           },
-"correctAnswer":"a"},
-{"question":"This is a Sample Question 2?",
+"correctAnswer":"c"},
+
+{"question":"2. Transistor gate form when two layers overlap. These two layers are -",
 "answers":{
-            "a":"answer1",
-            "b":"answer2",
-            "c":"answer3",
-            "d":"answer4"
+            "a":"Polysilicon and Select.",
+            "b":"Polysilicon and Contact.",
+            "c":"Polysilicon and Metal.",
+            "d":"Polysilicon and Active."
+          },
+"correctAnswer":"d"}, 
+
+{"question":"3. How many physical layers are used in below given inverter layout design, excluding wells:",
+"answers":{
+            "a":"6.",
+            "b":"7.",
+            "c":"5.",
+            "d":"8."
+          },
+"correctAnswer":"a"}, 
+
+{"question":"4. The layout design rules are usually described by -",
+"answers":{
+            "a":"Separation rule.",
+            "b":"Distance Rule.",
+            "c":"Micron rule and Design Rule.",
+            "d":"Micron Rule."
+          },
+"correctAnswer":"c"}, 
+
+{"question":"5. Lambda is known as -",
+"answers":{
+            "a":"Sepaparation of layers.",
+            "b":"Minimum feature size.",
+            "c":"Distance of pixel.",
+            "d":"All of these."
+          },
+"correctAnswer":"b"}, 
+    
+{"question":"6. The Length and width of a transistor are two most important dimensions of transistors that depend on -",
+"answers":{
+            "a":"Drain dimentions.",
+            "b":"Gate dimention.",
+            "c":"Bulk dimention.",
+            "d":"Source dimention."
+          },
+"correctAnswer":"b"},
+
+{"question":"7. Which of these are wrong option regarding design rule - a. Width rule b. space rule c. Overlap rule d. pixel rule.",
+"answers":{
+            "a":"a, b, c, and d.",
+            "b":"b and d.",
+            "c":"a and b.",
+            "d":"a, b, and c."
+          },
+"correctAnswer":"d"}, 
+
+{"question":"8. Minimum spacing rule of metal layer is -",
+"answers":{
+            "a":"3 mm.",
+            "b":"3 lamada.",
+            "c":"6 lamada.",
+            "d":"10 lamada."
+          },
+"correctAnswer":"b"}, 
+
+{"question":"9. DRC means -",
+"answers":{
+            "a":"Direct Rule Check.",
+            "b":"Design Rule Check.",
+            "c":"Design Right Check.",
+            "d":"Direct Right Check."
+          },
+"correctAnswer":"b"}, 
+
+{"question":"10. Overlapping is allowed in layers :",
+"answers":{
+            "a":"Poly and Metal.",
+            "b":"Metal 1 and Metal 2.",
+            "c":"Active and Poly.",
+            "d":"All Of These."
+          },
+"correctAnswer":"a"} 
+    
+]
+[
+{"question":"1. What is the minimum width, minimum spacing rule of same potential and different potential Well ?",
+"answers":{
+            "a":"10,9 and 10,6.",
+            "b":"10,6 and 10,9",
+            "c":"10,10 and 9,6.",
+            "d":"10,9 and 10,9."
+          },
+"correctAnswer":"c"},
+
+{"question":"2. Transistor gate form when two layers overlap. These two layers are -",
+"answers":{
+            "a":"Polysilicon and Select.",
+            "b":"Polysilicon and Contact.",
+            "c":"Polysilicon and Metal.",
+            "d":"Polysilicon and Active."
+          },
+"correctAnswer":"d"} 
+
+{"question":"3. How many physical layers are used in below given inverter layout design, excluding wells:",
+"answers":{
+            "a":"6.",
+            "b":"7.",
+            "c":"5.",
+            "d":"8."
+          },
+"correctAnswer":"a"} 
+
+{"question":"4. The layout design rules are usually described by -",
+"answers":{
+            "a":"Separation rule.",
+            "b":"Distance Rule.",
+            "c":"Micron rule and Design Rule.",
+            "d":"Micron Rule."
           },
 "correctAnswer":"c"} 
+
+{"question":"5. Lambda is known as -",
+"answers":{
+            "a":"Sepaparation of layers.",
+            "b":"Minimum feature size.",
+            "c":"Distance of pixel.",
+            "d":"All of these."
+          },
+"correctAnswer":"b"} 
+    
+{"question":"6. The Length and width of a transistor are two most important dimensions of transistors that depend on -",
+"answers":{
+            "a":"Drain dimentions.",
+            "b":"Gate dimention.",
+            "c":"Bulk dimention.",
+            "d":"Source dimention."
+          },
+"correctAnswer":"b"} 
+
+{"question":"7. Which of these are wrong option regarding design rule -
+a. Width rule
+b. space rule
+c. Overlap rule
+d. pixel rule.
+",
+"answers":{
+            "a":"a, b, c, and d.",
+            "b":"b and d.",
+            "c":"a and b.",
+            "d":"a, b, and c."
+          },
+"correctAnswer":"d"} 
+
+{"question":"8. Minimum spacing rule of metal layer is -",
+"answers":{
+            "a":"3 mm.",
+            "b":"3 lamada.",
+            "c":"6 lamada.",
+            "d":"10 lamada."
+          },
+"correctAnswer":"b"} 
+
+{"question":"9. DRC means -",
+"answers":{
+            "a":"Direct Rule Check.",
+            "b":"Design Rule Check.",
+            "c":"Design Right Check.",
+            "d":"Direct Right Check."
+          },
+"correctAnswer":"b"} 
+
+{"question":"10. Overlapping is allowed in layers :",
+"answers":{
+            "a":"Poly and Metal.",
+            "b":"Metal 1 and Metal 2.",
+            "c":"Active and Poly.",
+            "d":"All Of These."
+          },
+"correctAnswer":"a"} 
+    
 ]
