@@ -18,3 +18,5 @@
    - Place wrong created layers outside the grid. Note: There is no delete option.
 
    - Check DRC after completion of your layout design.
+
+Click [here](exp10.swf) for the manual
