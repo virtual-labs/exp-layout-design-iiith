@@ -1,6 +1,6 @@
 [
     {
-        "question": "Which statements are true regarding lambda rules ?",
+        "question": "1.Which statements are true regarding lambda rules ?",
         "answers": {
             "a": "Proportional scaling hence better to understand the circuit ",
             "b": "Introduce a layout constraint ",
@@ -10,7 +10,7 @@
         "correctAnswer": "c"
     },
     {
-        "question": "The ratio of minimum allowable width for metal1 and metal2 is ",
+        "question": "2.The ratio of minimum allowable width for metal1 and metal2 is ",
         "answers": {
             "a": "2/3",
             "b": "3/4",
