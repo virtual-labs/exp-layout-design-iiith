@@ -1,22 +1,15 @@
-*1.Select and placing layers :*
+# Layout Design
 
-   - Select a layer from available icons on the left panel.The layer selected appears on the top left box.
+## Procedure- 
 
-   - Place the selected layer in the central grid.
+* Right click in the workspace to find the crosshair cursor this is your first point
+* Move the cursor and observe the shape 
+* Right click again to freeze the shape
+* Change the components by clciking on the colors in the toolbar
+* Click on check Drc button
+* Observe the results in observation table
 
-   - Stretch the selected layer by using mouse left click and follow the pixels on grid.
+## Observations - 
 
-   - Click on "freeze component size" button to fix the size of layer. Note: Once freezing the layer size, this will not change in future.
-
-   - Move this layer and place it.
-
-
-*2.Layout completion and DRC check*
-
-   - Place all required layers and check DRC rule every time while placing layers.
-
-   - Place wrong created layers outside the grid. Note: There is no delete option.
-
-   - Check DRC after completion of your layout design.
-
-Click [here](exp10.swf) for the manual
+* On clicking "CheckDrc" option after completing the procedure you should see text represnting whether drc rules are satisfied or not
+* By default, the values for cross-checking are given in theory page
