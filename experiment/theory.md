@@ -8,7 +8,7 @@ The design rules are usually described in two ways :
 
 **Micron rules :** 
 
-Micron rules, which the layout constraints such as minimum feature sizes and minimum allowable feature separations, are stated in terms of absolute dimensions in micrometers, or,
+Micron rules, in which the layout constraints such as minimum feature sizes and minimum allowable feature separations, are stated in terms of absolute dimensions in micrometers, or,
 
 **Lambda rules :** 
 

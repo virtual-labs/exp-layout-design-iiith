@@ -37,7 +37,7 @@
 
 {"question":"5. Lambda is known as -",
 "answers":{
-            "a":"Sepaparation of layers.",
+            "a":"Separation of layers.",
             "b":"Minimum feature size.",
             "c":"Distance of pixel.",
             "d":"All of these."
@@ -53,7 +53,7 @@
           },
 "correctAnswer":"b"},
 
-{"question":"7. Which of these are wrong option regarding design rule - a. Width rule b. space rule c. Overlap rule d. pixel rule.",
+{"question":"7. Which of these are wrong options regarding design rule - a. Width rule b. space rule c. Overlap rule d. pixel rule.",
 "answers":{
             "a":"a, b, c, and d.",
             "b":"b and d.",

@@ -215,7 +215,7 @@ function checkdrc() {
                 if (ListColour[i] === 'black') {
                     if (dist_y <= 10 || dist_x <= 10) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                         document.getElementById('obs-table').classList.remove('text-success')
                         document.getElementById('obs-table').classList.add('text-danger')
                     }
@@ -223,7 +223,7 @@ function checkdrc() {
                 if (ListColour[i] === 'red') {
                     if (dist_y <= 20 || dist_x <= 20) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                         document.getElementById('obs-table').classList.remove('text-success')
                         document.getElementById('obs-table').classList.add('text-danger')
                     }
@@ -231,7 +231,7 @@ function checkdrc() {
                 if (ListColour[i] === 'grey') {
                     if (dist_y <= 30 || dist_x <= 30) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                         document.getElementById('obs-table').classList.remove('text-success')
                         document.getElementById('obs-table').classList.add('text-danger')
                     }
@@ -239,13 +239,13 @@ function checkdrc() {
                 if (ListColour[i] === '#AAF0D1') {
                     if (dist_y <= 30 || dist_x <= 30) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                     }
                 }
                 if (ListColour[i] === '#BFAFB2') {
                     if (dist_y <= 30 || dist_x <= 30) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                         document.getElementById('obs-table').classList.remove('text-success')
                         document.getElementById('obs-table').classList.add('text-danger')
                     }
@@ -253,7 +253,7 @@ function checkdrc() {
                 if (ListColour[i] === '#B2F302') {
                     if (dist_y <= 30 || dist_x <= 30) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                         document.getElementById('obs-table').classList.remove('text-success')
                         document.getElementById('obs-table').classList.add('text-danger')
                     }
@@ -261,7 +261,7 @@ function checkdrc() {
                 if (ListColour[i] === '#A63A79') {
                     if (dist_y <= 10 || dist_x <= 10) {
                         drcCheck++;
-                        document.getElementById('obs-table') += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
+                        document.getElementById('obs-table').innerHTML += "<br> Minimun spacing not followed between the rectangles " + i + "and " + j;
                         document.getElementById('obs-table').classList.remove('text-success')
                         document.getElementById('obs-table').classList.add('text-danger')
                     }
