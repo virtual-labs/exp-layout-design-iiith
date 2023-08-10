@@ -1,0 +1,85 @@
+{
+    "version": 2.0,
+    "questions": [
+    {
+        "question": "1.Which statements are true regarding lambda rules ?",
+        "answers": {
+            "a": "Proportional scaling hence better to understand the circuit ",
+            "b": "Introduce a layout constraint ",
+            "c": "both a and b ",
+            "d": "none "
+        },
+        "correctAnswer": "c",
+        "explanations": {
+            "a":"Lambda rules are used in integrated circuit design to maintain proportional scaling of dimensions. By scaling the dimensions of the circuit components (transistors, resistors, etc.) in proportion to each other, it becomes easier to understand and analyze the circuit's behavior. It allows designers to visualize the circuit layout more intuitively.",
+            "b":"Lambda rules are used to introduce layout constraints in integrated circuit design. These rules specify the minimum and maximum dimensions for various components and interconnects in the layout. By defining these constraints, lambda rules help ensure that the circuit layout adheres to specific design requirements, such as density, spacing, and manufacturability.            ",
+            "c":"Lambda rules provide both the benefits of proportional scaling for better understanding and the ability to introduce layout constraints for precise design control.",
+            "d":"Either one/both are correct"},
+        "difficulty": "beginner"
+    },
+    {
+        "question": "2.The ratio of minimum allowable width for metal1 and metal2 is ",
+        "answers": {
+            "a": "2/3",
+            "b": "3/4",
+            "c": "4/4",
+            "d": "4/5"
+        },
+        "correctAnswer": "c",
+        "explanations": {
+            "a":"",
+            "b":"",
+            "c":"",
+            "d":""},
+        "difficulty": "intermediate"
+    },
+    {
+        "question": "3.Given a circuit as having polysilicon having width as 1nm and metal with width 4nm and both of them seperated by 7nm ",
+        "answers": {
+            "a": "Drc rules are satisfied  ",
+            "b": "Drc rules fail becuase spacing is too small ",
+            "c": "Drc rules fail because metal width is too high ",
+            "d": "Drc rules fail becaue polysilicon width is too small  "
+        },
+        "correctAnswer": "d",
+        "explanations": {
+            "a":"In the given circuit, the polysilicon width is 1nm, which is below the typical minimum width for polysilicon in most technology nodes. Therefore, DRC rules would not be satisfied.",
+            "b":"The spacing between the polysilicon and metal layers is specified as 7nm, which is typically a reasonable spacing for most technology nodes",
+            "c":"The metal width of 4nm does not inherently violate any DRC rules. ",
+            "d":"The minimum width of polysilicon gates is usually larger than 1nm. Therefore, a polysilicon width of 1nm would likely violate DRC rules, as it falls below the minimum width requirement for polysilicon gates in most technology nodes."},
+        "difficulty": "advanced"
+    },
+    {
+        "question": "4.Which of the following statements are true ",
+        "answers": {
+            "a": "Micron rules give scalable design ",
+            "b": "Micron rules occupy less area ",
+            "c": "Thickness rules are also considered as part of layout design ",
+            "d": "Layout rules give absolute design "
+        },
+        "correctAnswer": "b",
+        "explanations": {
+            "a":"Scalability refers to the ability to easily increase the size or complexity of a design, which depends on various factors beyond just the micron rules.",
+            "b":"Micron rules are guidelines that specify the minimum feature sizes and spacing requirements in the layout design of integrated circuits. By adhering to these rules, designers can ensure that the circuit components are properly placed and spaced, optimizing the use of available area on the chip",
+            "c":"While thickness considerations are important in manufacturing, they are typically not directly part of the layout design process. Layout design primarily focuses on the arrangement and connectivity of circuit components rather than the thickness of individual layers.",
+            "d":"They impose restrictions and limitations to ensure the design meets certain criteria, but designers still have flexibility within those constraints to create different layout configurations."},
+        "difficulty": "beginner"
+    },
+    {
+        "question": "5.Minimum polycontact to polyedgespacing is ",
+        "answers": {
+            "a": "1L ",
+            "b": "2L ",
+            "c": "3L ",
+            "d": "4L "
+        },
+        "correctAnswer": "a",
+        "explanations": {
+            "a":"",
+            "b":"",
+            "c":"",
+            "d":""},
+        "difficulty": "intermediate"
+    }
+]
+}
