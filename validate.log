@@ -1,0 +1,11 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-layout-design-iiith/exp-layout-design-iiith/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-layout-design-iiith/exp-layout-design-iiith/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Validated true
