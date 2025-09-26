@@ -1,154 +1,184 @@
 {
   "version": 2.0,
   "questions": [
-{"question":"1. What is the minimum width, minimum spacing rule of same potential and different potential Well ?",
-"answers":{
-            "a":"10,9 and 10,6.",
-            "b":"10,6 and 10,9",
-            "c":"10,10 and 9,6.",
-            "d":"10,9 and 10,9."
-          },
-"correctAnswer":"c",
-"explanations": {
-    "a":"",
-    "b":"",
-    "c":"",
-    "d":""},
-"difficulty": "intermediate"},
+    {
+      "question": "1. What is the minimum width, minimum spacing rule of same potential and different potential Well ?",
+      "answers": {
+        "a": "10,9 and 10,6.",
+        "b": "10,6 and 10,9",
+        "c": "10,10 and 9,6.",
+        "d": "10,9 and 10,9."
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The values 10,9 and 10,6 do not match the standard minimum width and spacing rules for wells of same and different potential.",
+        "b": "Incorrect. The values 10,6 and 10,9 do not match the standard minimum width and spacing rules for wells of same and different potential.",
+        "c": "Correct. 10,10 and 9,6 are the standard minimum width and spacing rules for wells of same and different potential.",
+        "d": "Incorrect. The values 10,9 and 10,9 do not match the standard minimum width and spacing rules for wells of same and different potential."
+      },
+      "difficulty": "intermediate"
+    },
 
-{"question":"2. Transistor gate form when two layers overlap. These two layers are -",
-"answers":{
-            "a":"Polysilicon and Select.",
-            "b":"Polysilicon and Contact.",
-            "c":"Polysilicon and Metal.",
-            "d":"Polysilicon and Active."
-          },
-"correctAnswer":"d",
-"explanations": {
-    "a":"The polysilicon layer is used as a gate material in a transistor, but there is no specific layer called 'Select' involved in the formation of a transistor gate.",
-    "b":"While polysilicon is used as the gate material, the contact layer is not directly involved in the formation of the transistor gate. The contact layer is typically used to make electrical connections between different layers or components in an integrated circuit.",
-    "c":"While polysilicon is indeed used as the gate material, the metal layer is typically used for interconnects and wiring in an integrated circuit, rather than being directly involved in the formation of the transistor gate.",
-    "d":"In a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor), the transistor gate is formed by the overlap of the polysilicon layer and the active layer. The active layer, also known as the silicon or channel region, is the area where the transistor's current flows when it is in the on-state"},
-"difficulty": "beginner"}, 
+    {
+      "question": "2. Transistor gate form when two layers overlap. These two layers are -",
+      "answers": {
+        "a": "Polysilicon and Select.",
+        "b": "Polysilicon and Contact.",
+        "c": "Polysilicon and Metal.",
+        "d": "Polysilicon and Active."
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The polysilicon layer is used as a gate material in a transistor, but there is no specific layer called 'Select' involved in the formation of a transistor gate.",
+        "b": "Incorrect. While polysilicon is used as the gate material, the contact layer is not directly involved in the formation of the transistor gate. The contact layer is typically used to make electrical connections between different layers or components in an integrated circuit.",
+        "c": "Incorrect. While polysilicon is indeed used as the gate material, the metal layer is typically used for interconnects and wiring in an integrated circuit, rather than being directly involved in the formation of the transistor gate.",
+        "d": "Correct. In a MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor), the transistor gate is formed by the overlap of the polysilicon layer and the active layer. The active layer, also known as the silicon or channel region, is the area where the transistor's current flows when it is in the on-state"
+      },
+      "difficulty": "beginner"
+    },
 
-{"question":"3. How many physical layers are used in an inverter layout design, excluding wells:",
-"answers":{
-            "a":"6.",
-            "b":"7.",
-            "c":"5.",
-            "d":"8."
-          },
-"correctAnswer":"a",
-"explanations": {
-    "a":"These layers include the active layer, metal1 layer, poly layer, contact layer, metal2 layer, and via layer. Each layer serves a specific purpose in the design and fabrication of the inverter.",
-    "b":"",
-    "c":"",
-    "d":""},
-"difficulty": "intermediate"}, 
+    {
+      "question": "3. How many physical layers are used in an inverter layout design, excluding wells:",
+      "answers": {
+        "a": "6.",
+        "b": "7.",
+        "c": "5.",
+        "d": "8."
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. These layers include the active layer, metal1 layer, poly layer, contact layer, metal2 layer, and via layer. Each layer serves a specific purpose in the design and fabrication of the inverter.",
+        "b": "Incorrect. Seven layers is not the standard count for physical layers in inverter layout design, excluding wells.",
+        "c": "Incorrect. Five layers is not the standard count for physical layers in inverter layout design, excluding wells.",
+        "d": "Incorrect. Eight layers is not the standard count for physical layers in inverter layout design, excluding wells."
+      },
+      "difficulty": "intermediate"
+    },
 
-{"question":"4. The layout design rules are usually described by -",
-"answers":{
-            "a":"Separation rule.",
-            "b":"Distance Rule.",
-            "c":"Micron rule and Design Rule.",
-            "d":"Micron Rule."
-          },
-"correctAnswer":"c",
-"explanations": {
-    "a":"The term 'separation rule' is not commonly used in the context of layout design rules. It does not accurately describe the guidelines and specifications typically followed in layout design.",
-    "b":"While the concept of distance is important in layout design, the term 'distance rule' is not widely used to describe the design rules. It does not encompass the comprehensive set of guidelines and constraints that layout design rules typically cover.",
-    "c":"These terms refer to the specific guidelines and constraints that dictate how different components, structures, and interconnections should be arranged in the layout design. These rules ensure that the design is manufacturable and meets the desired performance and reliability criteria.",
-    "d":"While the term 'micron rule' is often used in the context of layout design, it does not fully capture the comprehensive nature of layout design rules. "},
-"difficulty": "beginner"}, 
+    {
+      "question": "4. The layout design rules are usually described by -",
+      "answers": {
+        "a": "Separation rule.",
+        "b": "Distance Rule.",
+        "c": "Micron rule and Design Rule.",
+        "d": "Micron Rule."
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. The term 'separation rule' is not commonly used in the context of layout design rules. It does not accurately describe the guidelines and specifications typically followed in layout design.",
+        "b": "Incorrect. While the concept of distance is important in layout design, the term 'distance rule' is not widely used to describe the design rules. It does not encompass the comprehensive set of guidelines and constraints that layout design rules typically cover.",
+        "c": "Correct. These terms refer to the specific guidelines and constraints that dictate how different components, structures, and interconnections should be arranged in the layout design. These rules ensure that the design is manufacturable and meets the desired performance and reliability criteria.",
+        "d": "Incorrect. While the term 'micron rule' is often used in the context of layout design, it does not fully capture the comprehensive nature of layout design rules. "
+      },
+      "difficulty": "beginner"
+    },
 
-{"question":"5. Lambda is known as -",
-"answers":{
-            "a":"Separation of layers.",
-            "b":"Minimum feature size.",
-            "c":"Distance of pixel.",
-            "d":"All of these."
-          },
-"correctAnswer":"b",
-"explanations": {
-    "a":"Lambda is not specifically known as 'Separation of layers.'",
-    "b":"In the context of semiconductor manufacturing and integrated circuit design, lambda (λ) is a unit of measurement that represents the minimum feature size. It is typically used to describe the size of transistors and other components on a microchip.",
-    "c":"Pixel distance is generally measured in terms of length or number of pixels, whereas lambda is a concept related to semiconductor manufacturing.",
-    "d":"It does not encompass all the concepts mentioned in all options."},
-"difficulty": "beginner"}, 
-    
-{"question":"6. The Length and width of a transistor are two most important dimensions of transistors that depend on -",
-"answers":{
-            "a":"Drain dimentions.",
-            "b":"Gate dimention.",
-            "c":"Bulk dimention.",
-            "d":"Source dimention."
-          },
-"correctAnswer":"b",
-"explanations": {
-    "a":"While the drain terminal is an important part of a transistor, it is not directly related to the length and width of the transistor itself.",
-    "b":"The gate dimension refers to the length and width of the gate terminal in a transistor. The gate terminal plays a crucial role in controlling the flow of current between the source and drain terminals. By adjusting the length and width of the gate, the transistor's characteristics, such as its threshold voltage and conductivity, can be controlled.",
-    "c":"The bulk dimension refers to the physical size of the bulk terminal in a transistor, which is often connected to the substrate or body of the transistor. While the bulk terminal is important for certain transistor designs, it does not directly determine the length and width of the transistor.",
-    "d":"The source dimension refers to the physical size of the source terminal in a transistor. While the source terminal is significant in determining the transistor's overall behavior, it is not directly related to the length and width of the transistor itself."},
-"difficulty": "intermediate"},
+    {
+      "question": "5. Lambda is known as -",
+      "answers": {
+        "a": "Separation of layers.",
+        "b": "Minimum feature size.",
+        "c": "Distance of pixel.",
+        "d": "All of these."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Lambda is not specifically known as 'Separation of layers.'",
+        "b": "Correct. In the context of semiconductor manufacturing and integrated circuit design, lambda (λ) is a unit of measurement that represents the minimum feature size. It is typically used to describe the size of transistors and other components on a microchip.",
+        "c": "Incorrect. Pixel distance is generally measured in terms of length or number of pixels, whereas lambda is a concept related to semiconductor manufacturing.",
+        "d": "Incorrect. It does not encompass all the concepts mentioned in all options."
+      },
+      "difficulty": "beginner"
+    },
 
-{"question":"7. Which of these are wrong options regarding design rule - a. Width rule b. space rule c. Overlap rule d. pixel rule.",
-"answers":{
-            "a":"a, b, c, and d.",
-            "b":"b and d.",
-            "c":"a and b.",
-            "d":"a, b, and c."
-          },
-"correctAnswer":"d",
-"explanations": {
-    "a":"The width rule is a fundamental design rule that specifies the minimum width of features in a design. It ensures that the features are wide enough to be reliably manufactured and allows for proper functionality of the design.The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation.The overlap rule is a guideline used in certain design contexts, particularly in the field of integrated circuits. It specifies the amount of overlap that should exist between adjacent layers or elements in a design. The overlap helps to ensure proper electrical connections and functionality. In general, the term 'pixel' is associated with display technologies and refers to the smallest unit of a digital image or display. However, in the context of design rules, the pixel rule does not have a specific meaning or relevance.",
-    "b":"The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation. In general, the term 'pixel' is associated with display technologies and refers to the smallest unit of a digital image or display. However, in the context of design rules, the pixel rule does not have a specific meaning or relevance.",
-    "c":"The width rule is a fundamental design rule that specifies the minimum width of features in a design. It ensures that the features are wide enough to be reliably manufactured and allows for proper functionality of the design.The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation.",
-    "d":"The width rule is a fundamental design rule that specifies the minimum width of features in a design. It ensures that the features are wide enough to be reliably manufactured and allows for proper functionality of the design.The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation.The overlap rule is a guideline used in certain design contexts, particularly in the field of integrated circuits. It specifies the amount of overlap that should exist between adjacent layers or elements in a design. The overlap helps to ensure proper electrical connections and functionality."},
-"difficulty": "intermediate"}, 
+    {
+      "question": "6. The Length and width of a transistor are two most important dimensions of transistors that depend on -",
+      "answers": {
+        "a": "Drain dimentions.",
+        "b": "Gate dimention.",
+        "c": "Bulk dimention.",
+        "d": "Source dimention."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. While the drain terminal is an important part of a transistor, it is not directly related to the length and width of the transistor itself.",
+        "b": "Correct. The gate dimension refers to the length and width of the gate terminal in a transistor. The gate terminal plays a crucial role in controlling the flow of current between the source and drain terminals. By adjusting the length and width of the gate, the transistor's characteristics, such as its threshold voltage and conductivity, can be controlled.",
+        "c": "Incorrect. The bulk dimension refers to the physical size of the bulk terminal in a transistor, which is often connected to the substrate or body of the transistor. While the bulk terminal is important for certain transistor designs, it does not directly determine the length and width of the transistor.",
+        "d": "Incorrect. The source dimension refers to the physical size of the source terminal in a transistor. While the source terminal is significant in determining the transistor's overall behavior, it is not directly related to the length and width of the transistor itself."
+      },
+      "difficulty": "intermediate"
+    },
 
-{"question":"8. Minimum spacing rule of metal layer is -",
-"answers":{
-            "a":"3 mm.",
-            "b":"3 lamada.",
-            "c":"6 lamada.",
-            "d":"10 lamada."
-          },
-"correctAnswer":"b",
-"explanations": {
-    "a":"",
-    "b":"",
-    "c":"",
-    "d":""},
-"difficulty": "beginner"}, 
+    {
+      "question": "7. Which of these are wrong options regarding design rule - <br> a. Width rule <br> b. space rule <br> c. Overlap rule <br> d. pixel rule.",
+      "answers": {
+        "a": "a, b, c, and d.",
+        "b": "b and d.",
+        "c": "a and b.",
+        "d": "a, b, and c."
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. The width rule is a fundamental design rule that specifies the minimum width of features in a design. It ensures that the features are wide enough to be reliably manufactured and allows for proper functionality of the design. The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation. The overlap rule is a guideline used in certain design contexts, particularly in the field of integrated circuits. It specifies the amount of overlap that should exist between adjacent layers or elements in a design. The overlap helps to ensure proper electrical connections and functionality. In general, the term 'pixel' is associated with display technologies and refers to the smallest unit of a digital image or display. However, in the context of design rules, the pixel rule does not have a specific meaning or relevance.",
+        "b": "Incorrect. The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation. In general, the term 'pixel' is associated with display technologies and refers to the smallest unit of a digital image or display. However, in the context of design rules, the pixel rule does not have a specific meaning or relevance.",
+        "c": "Incorrect. The width rule is a fundamental design rule that specifies the minimum width of features in a design. It ensures that the features are wide enough to be reliably manufactured and allows for proper functionality of the design. The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation.",
+        "d": "Correct. The width rule is a fundamental design rule that specifies the minimum width of features in a design. It ensures that the features are wide enough to be reliably manufactured and allows for proper functionality of the design. The space rule, also known as the spacing rule, refers to the minimum distance required between adjacent features in a design. It ensures that there is enough space between features to avoid electrical interference or short circuits during manufacturing and operation. The overlap rule is a guideline used in certain design contexts, particularly in the field of integrated circuits. It specifies the amount of overlap that should exist between adjacent layers or elements in a design. The overlap helps to ensure proper electrical connections and functionality."
+      },
+      "difficulty": "intermediate"
+    },
 
-{"question":"9. DRC means -",
-"answers":{
-            "a":"Direct Rule Check.",
-            "b":"Design Rule Check.",
-            "c":"Design Right Check.",
-            "d":"Direct Right Check."
-          },
-"correctAnswer":"b",
-"explanations": {
-    "a":"'Direct Rule Check' is not a commonly used or recognized term in the context of the given question",
-    "b":"DRC refers to the automated process of verifying whether a given design conforms to a set of predefined design rules or guidelines. It ensures that the design satisfies specific requirements and can be manufactured correctly.",
-    "c":"'Design Right Check' is not a standard term or commonly used abbreviation in the context of electronics or integrated circuit design",
-    "d":"This is not a commonly used or recognized term in the context of the given question."},
-"difficulty": "beginner"}, 
+    {
+      "question": "8. Minimum spacing rule of metal layer is -",
+      "answers": {
+        "a": "3 mm.",
+        "b": "3 lamada.",
+        "c": "6 lamada.",
+        "d": "10 lamada."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. 3 mm is not the standard minimum spacing rule for metal layers in layout design.",
+        "b": "Correct. 3 lambda is the standard minimum spacing rule for metal layers in layout design.",
+        "c": "Incorrect. 6 lambda is not the standard minimum spacing rule for metal layers in layout design.",
+        "d": "Incorrect. 10 lambda is not the standard minimum spacing rule for metal layers in layout design."
+      },
+      "difficulty": "beginner"
+    },
 
-{"question":"10. Overlapping is allowed in layers :",
-"answers":{
-            "a":"Poly and Metal.",
-            "b":"Metal 1 and Metal 2.",
-            "c":"Active and Poly.",
-            "d":"All Of These."
-          },
-"correctAnswer":"a",
-"explanations": {
-    "a":"The Poly layer is typically used for creating the gates of transistors, while the Metal layer is used for interconnecting various components of the circuit. Overlapping between these layers is necessary for proper functionality and electrical connectivity.",
-    "b":"Metal layers are typically used for routing signals and providing electrical connections. Each metal layer is separated by insulating layers (dielectrics) to prevent short circuits. Overlapping between metal layers can lead to electrical failures and signal interference.",
-    "c":"The Active layer consists of regions where the transistors and other active components are formed, while the Poly layer is used for creating the gates of the transistors. These layers are typically separated by isolation structures, such as shallow trench isolation (STI) or field oxide, to prevent electrical interactions and ensure proper device operation.",
-    "d":"Overlapping is not allowed in atleast one of the above."},
-"difficulty": "advanced"} 
-]
+    {
+      "question": "9. DRC means -",
+      "answers": {
+        "a": "Direct Rule Check.",
+        "b": "Design Rule Check.",
+        "c": "Design Right Check.",
+        "d": "Direct Right Check."
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. 'Direct Rule Check' is not a commonly used or recognized term in the context of the given question.",
+        "b": "Correct. DRC refers to the automated process of verifying whether a given design conforms to a set of predefined design rules or guidelines. It ensures that the design satisfies specific requirements and can be manufactured correctly.",
+        "c": "Incorrect. 'Design Right Check' is not a standard term or commonly used abbreviation in the context of electronics or integrated circuit design.",
+        "d": "Incorrect. This is not a commonly used or recognized term in the context of the given question."
+      },
+      "difficulty": "beginner"
+    },
+
+    {
+      "question": "10. Overlapping is allowed in layers :",
+      "answers": {
+        "a": "Poly and Metal.",
+        "b": "Metal 1 and Metal 2.",
+        "c": "Active and Poly.",
+        "d": "All Of These."
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The Poly layer is typically used for creating the gates of transistors, while the Metal layer is used for interconnecting various components of the circuit. Overlapping between these layers is necessary for proper functionality and electrical connectivity.",
+        "b": "Incorrect. Metal layers are typically used for routing signals and providing electrical connections. Each metal layer is separated by insulating layers (dielectrics) to prevent short circuits. Overlapping between metal layers can lead to electrical failures and signal interference.",
+        "c": "Incorrect. The Active layer consists of regions where the transistors and other active components are formed, while the Poly layer is used for creating the gates of the transistors. These layers are typically separated by isolation structures, such as shallow trench isolation (STI) or field oxide, to prevent electrical interactions and ensure proper device operation.",
+        "d": "Incorrect. Overlapping is not allowed in at least one of the above."
+      },
+      "difficulty": "advanced"
+    }
+  ]
 }

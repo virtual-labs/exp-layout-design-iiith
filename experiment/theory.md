@@ -1,65 +1,60 @@
-The physical mask layout of any circuit to be manufactured using a particular process must conform to a set of geometric constraints or rules, which are generally called layout design rules. These rules usually specify the minimum allowable line widths for physical objects on-chip such as metal and polysilicon interconnects or diffusion areas, minimum feature dimensions, and minimum allowable separations between two such features. If a metal line width is made too small, for example, it is possible for the line to break during the fabrication process or afterwards, resulting in an open circuit. If two lines are placed too close to each other in the layout, they may form an unwanted short circuit by merging during or after the fabrication process. The main objective of design rules is to achieve a high overall yield and reliability while using the smallest possible silicon area, for any circuit to be manufactured with a particular process.
+Physical layout design is a crucial step in the fabrication of integrated circuits (ICs). It involves translating a circuit schematic into geometric patterns that define the placement and interconnection of devices on silicon. Proper layout design ensures manufacturability, reliability, and optimal use of silicon area.
 
+### Importance of Layout Design Rules
 
-We can say, in general, that observing the layout design rules significantly increases the probability of fabricating a successful product with high yield.
+Every circuit layout must conform to a set of geometric constraints known as layout design rules. These rules specify minimum feature sizes, line widths, and separations for on-chip structures such as metal and polysilicon interconnects, diffusion areas, and contacts. Violating these rules can result in open circuits, short circuits, or reduced yield during manufacturing. Adhering to layout design rules significantly increases the probability of fabricating a successful product with high yield.
 
+### Types of Layout Design Rules
 
-The design rules are usually described in two ways :
+Layout design rules are usually described in two ways:
 
-**Micron rules :** 
+#### Micron Rules
 
-Micron rules, in which the layout constraints such as minimum feature sizes and minimum allowable feature separations, are stated in terms of absolute dimensions in micrometers, or,
+Micron rules specify layout constraints such as minimum feature sizes and separations in terms of absolute dimensions (micrometers, μm). These rules are technology-dependent and must be updated for each process node.
 
-**Lambda rules :** 
+#### Lambda Rules
 
-Lambda rules, which specify the layout constraints in terms of a single parameter Lambda and, thus, allow linear, proportional scaling of all geometrical constraints.
+Lambda rules specify layout constraints in terms of a single scalable parameter, λ (lambda). All geometrical constraints are expressed as integer multiples of λ, allowing easy proportional scaling across different technology nodes. Lambda rules simplify design portability and understanding.
 
-**SOME DEFINED RULES :**
+### Common Lambda-Based Design Rules (L-Rules)
 
-Description : L-Rule
+| Description                                  | Value |
+| -------------------------------------------- | ----- |
+| Minimum active area width                    | 3λ    |
+| Minimum active area spacing                  | 3λ    |
+| Minimum poly width                           | 2λ    |
+| Minimum poly spacing                         | 2λ    |
+| Minimum gate extension of poly over active   | 2λ    |
+| Minimum poly-active edge spacing (outside)   | 1λ    |
+| Minimum poly-active edge spacing (inside)    | 3λ    |
+| Minimum metal width                          | 3λ    |
+| Minimum metal spacing                        | 3λ    |
+| Poly contact size                            | 2λ    |
+| Minimum poly contact spacing                 | 2λ    |
+| Minimum poly contact to poly edge spacing    | 1λ    |
+| Minimum poly contact to metal edge spacing   | 1λ    |
+| Minimum poly contact to active edge spacing  | 3λ    |
+| Active contact size                          | 2λ    |
+| Minimum active contact spacing (same region) | 2λ    |
+| Minimum active contact to active edge        | 1λ    |
+| Minimum active contact to metal edge         | 1λ    |
+| Minimum active contact to poly edge          | 3λ    |
+| Minimum active contact spacing               | 6λ    |
 
-Minimum active area width : 3 L
-Minimum active area spacing : 3 L
-Minimum poly width : 2 L
-Minimum poly spacing : 2 L
-Minimum gate extension of poly over active : 2 L
-Minimum poly-active edge spacing : 1 L
-(poly outside active area)
-Minimum poly-active edge spacing : 3 L
-(poly inside active area)
-Minimum metal width : 3 L
-Minimum metal spacing : 3 L
-Poly contact size : 2 L
-Minimum poly contact spacing : 2 L
-Minimum poly contact to poly edge spacing : 1 L
-Minimum poly contact to metal edge spacing : 1 L
-Minimum poly contact to active edge spacing : 3 L
-Active contact size : 2 L
-Minimum active contact spacing : 2 L
-(on the same active region)
-Minimum active contact to active edge spacing : 1 L
-Minimum active contact to metal edge spacing : 1 L
-Minimum active contact to poly edge spacing : 3 L
-Minimum active contact spacing : 6 L
-
-**Pictorial presentation of Layout Design Rules (DRCs) : Intra Layer Design Rules**
-
-
-Figure1: Intra Layer Design Rules.
+### Visual Examples of Layout Design Rules
 
 <img src="images/1.png">
 
-
-Figure2: Transistor Layout.
+**Figure 1:** Intra Layer Design Rules
 
 <img src="images/2.png">
 
-
-Figure3: Vias and Contacts.
+**Figure 2:** Transistor Layout
 
 <img src="images/3.png">
 
-
-Figure4: CMOS Inverter Layout.
+**Figure 3:** Vias and Contacts
 
 <img src="images/4.png">
+
+**Figure 4:** CMOS Inverter Layout
